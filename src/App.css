@@ -28,6 +28,12 @@ body {
   width: 350px;
   
 }
+@media (max-width: 600px) {
+  .container{
+    width:50vw;
+  }
+}
+
 
 h1 {
   letter-spacing: 1px;
