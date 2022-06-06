@@ -5,7 +5,9 @@ const colors=require('colors');
 const morgan=require('morgan');
 const mongodb=require('./config/connectdb');
 const path =require('path');
+const cors = require("cors")
 
+app.use(cors("*"))
 dotenv.config({ path:'./config/config.env'});
 
 app.use(express.json());
