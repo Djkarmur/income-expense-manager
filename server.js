@@ -25,6 +25,6 @@ if(process.env.node_env ==='production'){
     });
 }
 
-const port=process.env.port || 4000;
+const port=process.env.PORT || 4000;
 
 app.listen(port);
